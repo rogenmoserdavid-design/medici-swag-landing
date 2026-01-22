@@ -56,9 +56,33 @@ export default function TheAudience() {
                 <div className="text-xl font-bold text-white mb-1 group-hover:text-medici-teal transition-colors">
                   {celebrity.name}
                 </div>
-                <div className="text-sm text-gray-400">{celebrity.role}</div>
+                <div className="text-base text-gray-400">{celebrity.role}</div>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Benefit Badges */}
+        <div className="mb-16">
+          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+            <div className="bg-medici-teal/10 border border-medici-teal/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 hover:bg-medici-teal/20 hover:border-medici-teal transition-all duration-300">
+              <span className="text-medici-teal font-semibold text-sm sm:text-base">Celebrity Exposure</span>
+            </div>
+            <div className="bg-medici-teal/10 border border-medici-teal/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 hover:bg-medici-teal/20 hover:border-medici-teal transition-all duration-300">
+              <span className="text-medici-teal font-semibold text-sm sm:text-base">Premium Placement</span>
+            </div>
+            <div className="bg-medici-teal/10 border border-medici-teal/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 hover:bg-medici-teal/20 hover:border-medici-teal transition-all duration-300">
+              <span className="text-medici-teal font-semibold text-sm sm:text-base">3K+ Social Reach</span>
+            </div>
+            <div className="bg-medici-teal/10 border border-medici-teal/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 hover:bg-medici-teal/20 hover:border-medici-teal transition-all duration-300">
+              <span className="text-medici-teal font-semibold text-sm sm:text-base">Tax Deductible</span>
+            </div>
+            <div className="bg-medici-teal/10 border border-medici-teal/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 hover:bg-medici-teal/20 hover:border-medici-teal transition-all duration-300">
+              <span className="text-medici-teal font-semibold text-sm sm:text-base">Content Rights</span>
+            </div>
+            <div className="bg-medici-teal/10 border border-medici-teal/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 hover:bg-medici-teal/20 hover:border-medici-teal transition-all duration-300">
+              <span className="text-medici-teal font-semibold text-sm sm:text-base">Exclusive Network</span>
+            </div>
           </div>
         </div>
 
@@ -76,7 +100,7 @@ export default function TheAudience() {
               </div>
               <div>
                 <p className="font-semibold text-white mb-1">Premium Placement</p>
-                <p className="text-sm text-gray-300">Your swag directly in the hands of 100 influential golfers</p>
+                <p className="text-base text-gray-300">Your swag directly in the hands of 100 influential golfers</p>
               </div>
             </div>
 
@@ -88,7 +112,7 @@ export default function TheAudience() {
               </div>
               <div>
                 <p className="font-semibold text-white mb-1">Celebrity Exposure</p>
-                <p className="text-sm text-gray-300">Products used by Tim Tebow, Bo Nix, and other stars</p>
+                <p className="text-base text-gray-300">Products used by Tim Tebow, Bo Nix, and other stars</p>
               </div>
             </div>
 
@@ -100,7 +124,7 @@ export default function TheAudience() {
               </div>
               <div>
                 <p className="font-semibold text-white mb-1">Content Opportunities</p>
-                <p className="text-sm text-gray-300">TTF social media reach and event photography</p>
+                <p className="text-base text-gray-300">TTF social media reach and event photography</p>
               </div>
             </div>
 
@@ -112,7 +136,7 @@ export default function TheAudience() {
               </div>
               <div>
                 <p className="font-semibold text-white mb-1">Charitable Impact</p>
-                <p className="text-sm text-gray-300">Supporting children with special needs through TTF</p>
+                <p className="text-base text-gray-300">Supporting children with special needs through TTF</p>
               </div>
             </div>
           </div>

@@ -42,14 +42,14 @@ export default function WhatWereBuilding() {
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 stagger-children">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 stagger-children">
         {categories.map((category, index) => (
           <div
             key={index}
-            className="bg-zinc-900 rounded-xl p-6 sm:p-8 border border-zinc-800 hover:border-medici-teal transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:shadow-medici-teal/20 group"
+            className="bg-zinc-900 rounded-xl p-6 sm:p-8 border border-zinc-800 hover:border-medici-teal transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:shadow-medici-teal/20 group min-h-[180px] flex flex-col items-center justify-center text-center"
           >
             {/* Icon */}
-            <div className="text-5xl sm:text-6xl mb-4 transition-transform duration-300 group-hover:scale-110">
+            <div className="text-6xl sm:text-5xl lg:text-6xl mb-4 transition-transform duration-300 group-hover:scale-110">
               {category.icon}
             </div>
 

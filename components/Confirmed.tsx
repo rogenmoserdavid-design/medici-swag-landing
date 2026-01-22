@@ -85,11 +85,14 @@ export default function Confirmed() {
           {confirmedBrands.map((brand, index) => (
             <div
               key={brand.name}
-              className="group relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-6 sm:p-8 border border-gray-700 hover:border-medici-teal/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-medici-teal/20"
+              className="group relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-6 sm:p-8 border border-gray-700 hover:border-medici-teal/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-medici-teal/20 overflow-hidden"
               style={{
                 animationDelay: `${index * 100}ms`
               }}
             >
+              {/* Gradient border glow on hover */}
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-medici-teal to-ttf-blue rounded-2xl opacity-0 group-hover:opacity-100 blur transition-opacity duration-300 -z-10"></div>
+
               {/* Glow effect on hover */}
               <div className="absolute inset-0 rounded-2xl bg-medici-teal/0 group-hover:bg-medici-teal/5 transition-all duration-300"></div>
 

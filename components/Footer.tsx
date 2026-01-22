@@ -20,7 +20,7 @@ export default function Footer() {
           <div className="text-center">
             <h4 className="text-white font-semibold mb-3">Event Details</h4>
             <div className="space-y-1 text-sm text-gray-400">
-              <p>April 2026</p>
+              <p>March 6, 2026</p>
               <p>Private Golf Club</p>
               <p>100 Exclusive Participants</p>
             </div>
